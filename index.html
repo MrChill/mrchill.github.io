@@ -1,1 +1,96 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Time 2 Focus | Website</title>
+        <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
+        <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+        <link href="fontawesome/css/brands.css" rel="stylesheet">
+        <link href="fontawesome/css/solid.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--Header-->
+        <header>
+            <div id="logo">
+                <a href="#">
+                <img src="img/logo1.png" alt="Logo">
+                </a>
+            </div>
+
+            <nav id="main-nav">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+                <ul>
+                    <a href="#home"><li>Home</li></a>
+                    <a href="#workout"><li>Workout</li></a>
+                    <a href="#workouts-tag"><li>Workouts</li></a>
+                    <a href="#contact"><li>Contact</li></a>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home">
+            <hr>
+            <h1>Time 2 Focus</h1>
+            <h2>Zeit, um etwas für Dich zu tun...</h2>
+            <a href="#workout">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </section>
+        <!--Workout-->
+        <section id="workout">
+            <h3>Workout</h3>
+            <hr>
+            <img src="img/avatar1.gif" alt="Avatar">
+            <h4>Seitdrehung</h4>
+            <p>
+                Dehnung der seitlichen Rückenmuskulatur <br><br>
+                1. Komme in einen aufrechten Sitz. Deine Beine stehen parallel zueinander. <br>
+                2. Drehe deinen Oberkörper nach rechts, greife mit deiner rechten Hand an die Stuhllehne und mit der linken Hand dein rechtes Knie <br>
+                3. Diese Position 5 Atemzüge halten, dann die Seite wechseln <br><br>
+                Diese Übung 2x wiederholen
+            </p>
+        </section>
+        <!--Workouts-->
+        <section id="workouts-tag">
+            <h3>Workouts</h3>
+            <hr>
+            <div id="workouts">
+                <ul>
+                    <li> <a href="#"><img src="http://placehold.it/1280x720" alt="Workout_01"></a></li>
+                    <li> <a href="#"><img src="http://placehold.it/1280x720" alt="Workout_02"></a></li>
+                    <li> <a href="#"><img src="http://placehold.it/1280x720" alt="Workout_03"></a></li>
+                    <li> <a href="#"><img src="http://placehold.it/1280x720" alt="Workout_04"></a></li>
+                    <li> <a href="#"><img src="http://placehold.it/1280x720" alt="Workout_05"></a></li>
+                    <li> <a href="#"><img src="http://placehold.it/1280x720" alt="Workout_06"></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h3>Contact</h3>
+            <hr>
+            <form>
+                <input class="input_text" type="email" tabindex="1" placeholder="E-Mail"><br>
+                <input class="input_text" type="text" tabindex="2" placeholder="Betreff"><br>
+                <textarea class="input_text" tabindex="3" placeholder="Nachricht"></textarea><br>
+                <input class="button" type="submit">
+            </form>
+        </section>
+        <footer>
+            <p>
+                &copy; 2020 Time2Focus
+            </p>
+        </footer>
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <script src="js/mobile-menu.js"></script>
+    </body>
+</html>
